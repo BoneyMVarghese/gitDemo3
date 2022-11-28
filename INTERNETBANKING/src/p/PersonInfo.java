@@ -20,7 +20,7 @@ public class PersonInfo implements Serializable {
 		bal=0I;
 		dadate="";
 		type="";
-		amount=0F;
+		amount=0H;
 		cname="";
 	}
 	public void setall(String str,Integer str2,String str4,Float str6,Integer str7,String str8,String str9,Float str10)
@@ -38,10 +38,7 @@ public class PersonInfo implements Serializable {
 	{
 		cmobile=str;
 	}
-	public void setpass(String str)
-	{
-		pass=str;
-	}
+	
 	public void setname(String str)
 	{
 		cname=str;
