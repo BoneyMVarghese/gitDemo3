@@ -17,7 +17,7 @@ public class PersonInfo implements Serializable {
 		cac=0;
 		cmobile=0L;
 		bcode=0;
-		bal=0F;
+		bal=0I;
 		dadate="";
 		type="";
 		amount=0F;
