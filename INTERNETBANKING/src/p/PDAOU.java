@@ -40,7 +40,7 @@ amount float(10,2)
 	        String dat=dateFormat.format(date);
 	        dateFormat = new SimpleDateFormat("HH:mm:ss");     
 	        String tim=dateFormat.format(date);
-			sql="insert into widep values("+nname+",'"+dat+"','"+tim+"','W',"+name+")";
+			sql="insert into wide values("+nname+",'"+dat+"','"+tim+"','W',"+name+")";
 			stmt=con.createStatement();
 		 	stmt.executeUpdate(sql);
 		 	sql="update accd set bal=bal+"+name+" where cac=" + rec;
